@@ -1,26 +1,24 @@
+import java.util.Scanner;
+
 public class Main {
+
+    private static int[] tablica;
 
     public static void main(String[] args) {
 
-        /* cw.1 pętle while */
+        /* ćwiczenie 3 switch case */
 
-        /* zad 1 - Napisać za pomocą pętli do-while kod który będzie iterował od liczby 1000 w dół do 0.
-          Jeśli liczba będzie podzielna przez 2 ostatnie cyfry waszego indeksu (podać nr indesu z uczelni)
-          to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
-        */
+        /* zad.1 napisać program który przyjmuje jedną liczbę od użytkownika z klawiatury
+          i za pomocą switch case default ma określić czy:
+          a) ta liczba jest parzysta --> podpowiedz switch(a % 2) {
+          b) program który określi czy liczba jest podzielna przez 7
+         */
 
-
-        /* zad 2
-        a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
-          przeiterować tablicę po elementach i wyswietlić, użyć pętli while
-        b) jak wyżej tylko dla tablicy typu double[],
-        c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
-        */
-
-        /* zad.3
-        a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
-        b) a jak gdy damy false --> while(false)
-        */
+        /* zad.2
+           a) napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x', 'z', 'q' w wyrazie:
+            "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
+           b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
+         */
 
 
     }
